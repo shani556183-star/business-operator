@@ -1,0 +1,12 @@
+[
+  {"id": "P001", "company": "Faller's Furniture", "website": "https://www.fallersfurniture.com", "location": "Clarion, PA", "verification": "FULLY_FETCHED", "audit_done": true, "outreach_status": "DRAFTED"},
+  {"id": "P002", "company": "Furniture Mart NC", "website": "https://www.furnituremartnc.com", "location": "Roxboro, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "DRAFTED"},
+  {"id": "P003", "company": "Hendrixson's Furniture", "website": "https://www.hendrixsonsfurniture.com", "location": "Furlong/Emmaus, PA", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
+  {"id": "P004", "company": "Furniture Direct FL", "website": "https://www.furnituredirectfl.com", "location": "West Palm Beach, FL", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
+  {"id": "P005", "company": "Furniture World", "website": "https://myfurnitureworld.com", "location": "Lighthouse Point, FL", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
+  {"id": "P006", "company": "B & W Hardware Co.", "website": "https://wakeforesthardware.com", "location": "Wake Forest, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
+  {"id": "P007", "company": "Town Hardware General Store", "website": "https://townhardwaregeneralstore.com", "location": "Black Mountain, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
+  {"id": "P008", "company": "Zebulon Hardware", "website": "https://zebulonhardware.com", "location": "Zebulon, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "DRAFTED"},
+  {"id": "P009", "company": "HomeTown Solutions", "website": "https://www.hometownsolutionswv.com", "location": "Augusta/Fort Ashby, WV", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
+  {"id": "P010", "company": "Little Fawn Hardware", "website": "https://littlefawnllc.com", "location": "Camden, IN", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"}
+]

@@ -1,0 +1,39 @@
+name: Daily SEO Prospect Scan
+
+# Runs automatically every day at 08:00 UTC — no manual trigger needed.
+# Free forever on a public GitHub repo (confirmed: GitHub Actions is
+# unlimited/free for public repos, unlike this sandbox which has no
+# general internet access).
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch: {}   # lets you also trigger it manually from GitHub's UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 jinja2
+
+      - name: Run daily scan (fetch + analyze + draft, no sending)
+        run: python scripts/run_daily_scan.py
+
+      - name: Post approval digest as a GitHub Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/post_digest.py
+
+      - name: Commit results back to repo
+        run: |
+          git config user.name "business-operator-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add memory/ BUSINESS_STATUS.md logs/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Daily scan: $(date -u +%Y-%m-%d)"
+          git push

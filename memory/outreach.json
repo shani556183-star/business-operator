@@ -1,0 +1,22 @@
+[
+  {
+    "outreach_id": 1,
+    "prospect_id": "P001",
+    "company": "Faller's Furniture",
+    "subject": "Quick note about fallersfurniture.com",
+    "body": "Hi there,\n\nFaller's has been serving Clarion since 1847 - that's a rare kind of trust to build. While looking at your site, I noticed your meta description only mentions \"Clarion, PA\" even though your title tag lists Clarion, Shippenville, and Knox - which means Shippenville/Knox searches may not be showing your listing as clearly as they should. I also didn't see a blog or buying-guide section, which is usually where independent furniture stores pick up steady organic traffic.\n\nI put together a quick SEO health check covering this and a few other fixes - happy to share it, no obligation. Would that be useful?",
+    "personalization_basis": "Fully verified - live fetch + analyzer run on real HTML",
+    "approved": true,
+    "contact_email": "office@fallersfurniture.com"
+  },
+  {
+    "outreach_id": 8,
+    "prospect_id": "P008",
+    "company": "Zebulon Hardware",
+    "subject": "Congrats on the new Zebulon store",
+    "body": "Hi,\n\nCongrats on building Zebulon Hardware into the town's go-to spot since 2023 - saw the community backstory on your site, great story.\n\nOne thing I noticed: your blog content is split across two places - zebulonhardware.com/blogs/news and a separate trends.zebulonhardware.com subdomain. Search engines generally treat a subdomain as a semi-separate site, so that split can quietly dilute the SEO value both are trying to build. Consolidating onto one would likely help.\n\nI do a quick $29 SEO health check for small local retailers if useful - happy to send it over.",
+    "personalization_basis": "FULLY_FETCHED \u2014 live fetch on 2026-08-31, blog/subdomain split genuinely observed (corrected from earlier unverified draft)",
+    "approved": true,
+    "contact_email": "hooperstruevaluehardware@gmail.com"
+  }
+]

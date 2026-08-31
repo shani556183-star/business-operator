@@ -1,0 +1,39 @@
+name: Process Approval Comment
+
+# Triggers automatically whenever ANYONE comments on ANY issue.
+# We filter inside the job to only act on the approval-labeled issue,
+# and only when the comment is genuinely from the repo owner - not a
+# random person who found the public repo.
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  process:
+    if: contains(github.event.issue.labels.*.name, 'outreach-approval') && github.event.comment.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests google-auth google-api-python-client
+
+      - name: Process approval and send approved emails only
+        env:
+          APPROVAL_COMMENT: ${{ github.event.comment.body }}
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: python scripts/process_approval.py
+
+      - name: Commit updated outreach status
+        run: |
+          git config user.name "business-operator-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add memory/outreach.json logs/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Processed approval comment"
+          git push

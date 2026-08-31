@@ -1,0 +1,52 @@
+[
+  {
+    "id": "OPP-001-seo-audit",
+    "name": "AI-Powered Website SEO Health Check",
+    "category": "seo_audit",
+    "problem": "Small/family-owned businesses run websites with unaddressed technical and on-page SEO issues (outdated templates, no content strategy) and no in-house marketing team to catch it.",
+    "target_buyer": "Independent retail/service businesses, 1-5 locations, no in-house marketer.",
+    "evidence": [
+      {"claim": "Fiverr lead-gen/research adjacent categories have real, active buyers", "source": "Fiverr b2b-sales category listing, 1970 active services", "confidence": "VERIFIED_FACT"},
+      {"claim": "Faller's Furniture (real site) has 6 concrete, fixable SEO issues", "source": "Direct web_fetch + analyzer.py run on 2026-08-31", "confidence": "VERIFIED_FACT"},
+      {"claim": "SEO audit delivery has no paid-tool dependency, unlike lead-list verification", "source": "Reasoned from Hunter.io free-tier cap (50 credits/month) research", "confidence": "ESTIMATE"}
+    ],
+    "competitors": ["Many Fiverr/Upwork SEO audit sellers - exact count not verified"],
+    "pricing_evidence": [
+      {"source": "Fiverr lead-gen adjacent pricing ($15-$96 range)", "price_range": "$25-$45 realistic starting price", "confidence": "ESTIMATE"}
+    ],
+    "acquisition_channels": ["Fiverr gig (organic)", "Manual personalized outreach to researched prospects"],
+    "estimated_cost_usd": 0,
+    "automation_potential_pct": 80,
+    "human_involvement": "Outreach sending, order acceptance, payment, final QC sign-off before delivery - all require human action for platform ToS / trust / legal reasons.",
+    "legal_platform_risk": "Low for delivery (public HTML analysis of a site to audit it for a report is standard SEO practice). Outreach sending must stay under Gmail safe limits (~10-25/day) and Upwork/Fiverr require human-submitted proposals.",
+    "scalability": "High - delivery has no free-tier bottleneck, unlike lead-gen.",
+    "first_customer_difficulty": "MEDIUM - real competition on Fiverr, but low price point + genuine personalization should offset it.",
+    "confidence": "ESTIMATE",
+    "status": "TESTING",
+    "next_action": "Owner approval of outreach drafts, then send.",
+    "score": 79
+  },
+  {
+    "id": "OPP-002-lead-research",
+    "name": "B2B Lead List & Research Service",
+    "category": "lead_research",
+    "problem": "Sales teams need targeted prospect lists with verified contact info.",
+    "target_buyer": "Small agencies, sales teams, recruiters.",
+    "evidence": [
+      {"claim": "Hunter.io free tier caps at 50 credits/month (shared find+verify pool)", "source": "Hunter.io pricing pages, multiple sources, checked 2026", "confidence": "VERIFIED_FACT"}
+    ],
+    "competitors": ["1970+ active Fiverr b2b-sales sellers"],
+    "pricing_evidence": [{"source": "Fiverr", "price_range": "$25-$96", "confidence": "VERIFIED_FACT"}],
+    "acquisition_channels": ["Fiverr", "Upwork"],
+    "estimated_cost_usd": 0,
+    "automation_potential_pct": 55,
+    "human_involvement": "LinkedIn research must stay manual (ToS), email verification credit-budget decisions.",
+    "legal_platform_risk": "MEDIUM - automated LinkedIn scraping violates LinkedIn ToS even though not CFAA-illegal; manual browsing only.",
+    "scalability": "Low at $0 (free tool cap ~1-2 clients/month).",
+    "first_customer_difficulty": "MEDIUM",
+    "confidence": "ESTIMATE",
+    "status": "PAUSED",
+    "next_action": "Revisit once SEO experiment funds a paid email-finder tier.",
+    "score": 68
+  }
+]

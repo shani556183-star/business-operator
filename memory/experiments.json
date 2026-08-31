@@ -1,0 +1,28 @@
+[
+  {
+    "id": "EXP-001",
+    "opportunity_id": "OPP-001-seo-audit",
+    "hypothesis": "A $29 AI-generated SEO health check, personalized with a genuine observed issue, will get at least one reply and one paying customer from 10 targeted outreach messages.",
+    "target_customer": "Independent furniture/hardware retailers, US, family-owned, no in-house marketer.",
+    "offer": "Website SEO Health Check",
+    "price": 29,
+    "acquisition_method": "Personalized email outreach to researched prospects (manual send by owner) + Fiverr gig (organic).",
+    "start_date": null,
+    "actions": [
+      "Fetched and analyzed fallersfurniture.com (real, live)",
+      "Built and tested analyzer.py + report_generator.py end-to-end",
+      "Researched and verified 10 real prospects with real URLs",
+      "Drafted 2 fully personalized + 8 template-level outreach messages"
+    ],
+    "prospects": 10,
+    "responses": 0,
+    "customers": 0,
+    "revenue": 0,
+    "costs": 0,
+    "conversion": null,
+    "result": "IN_PROGRESS",
+    "lesson": null,
+    "next_action": "Owner approval of outreach drafts (APPROVE 1-10 or specific numbers)",
+    "status": "TESTING"
+  }
+]
