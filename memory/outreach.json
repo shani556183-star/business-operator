@@ -18,5 +18,59 @@
     "personalization_basis": "FULLY_FETCHED \u2014 live fetch on 2026-08-31, blog/subdomain split genuinely observed (corrected from earlier unverified draft)",
     "approved": true,
     "contact_email": "hooperstruevaluehardware@gmail.com"
+  },
+  {
+    "outreach_id": 9,
+    "company": "Hendrixson's Furniture",
+    "website": "https://www.hendrixsonsfurniture.com",
+    "subject": "Quick note about https://www.hendrixsonsfurniture.com",
+    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "approved": false
+  },
+  {
+    "outreach_id": 10,
+    "company": "Furniture Direct FL",
+    "website": "https://www.furnituredirectfl.com",
+    "subject": "Quick note about https://www.furnituredirectfl.com",
+    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "approved": false
+  },
+  {
+    "outreach_id": 11,
+    "company": "B & W Hardware Co.",
+    "website": "https://wakeforesthardware.com",
+    "subject": "Quick note about https://wakeforesthardware.com",
+    "body": "Hi,\n\nI came across B & W Hardware Co.'s website while researching local businesses and noticed something worth a quick look: Title is 61 characters: \"Wake Forest's family owned-and-operated - B & W Hardware, Co.\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "approved": false
+  },
+  {
+    "outreach_id": 12,
+    "company": "Town Hardware General Store",
+    "website": "https://townhardwaregeneralstore.com",
+    "subject": "Quick note about https://townhardwaregeneralstore.com",
+    "body": "Hi,\n\nI came across Town Hardware General Store's website while researching local businesses and noticed something worth a quick look: 280 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "approved": false
+  },
+  {
+    "outreach_id": 13,
+    "company": "HomeTown Solutions",
+    "website": "https://www.hometownsolutionswv.com",
+    "subject": "Quick note about https://www.hometownsolutionswv.com",
+    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "approved": false
+  },
+  {
+    "outreach_id": 14,
+    "company": "Little Fawn Hardware",
+    "website": "https://littlefawnllc.com",
+    "subject": "Quick note about https://littlefawnllc.com",
+    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: Title is 65 characters: \"Outdoor Sheds | Building Materials | Hardware Store | Little Fawn\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "approved": false
   }
 ]
