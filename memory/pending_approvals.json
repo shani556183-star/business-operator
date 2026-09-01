@@ -46,5 +46,37 @@
     "level": "OWNER_REQUIRED",
     "approved": false,
     "requested_at": "2026-08-31T16:28:04.166317"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "15",
+    "description": "Outreach for Hendrixson's Furniture",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-01T08:18:05.844762"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "16",
+    "description": "Outreach for Furniture Direct FL",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-01T08:18:06.375192"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "17",
+    "description": "Outreach for HomeTown Solutions",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-01T08:18:11.954185"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "18",
+    "description": "Outreach for Little Fawn Hardware",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-01T08:18:12.239868"
   }
 ]
