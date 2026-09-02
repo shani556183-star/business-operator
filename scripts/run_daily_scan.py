@@ -66,16 +66,26 @@ def build_draft(company: str, result: dict) -> str:
     )
 
 
+def already_drafted(website: str, outreach: list) -> bool:
+    """Prevents re-drafting the same company every single day."""
+    return any(o.get("website") == website for o in outreach)
+
+
 def main():
     queue = load_json(QUEUE_PATH, [])
     outreach = load_json(OUTREACH_PATH, [])
     next_id = max([o["outreach_id"] for o in outreach], default=0) + 1
 
-    processed, skipped_no_findings, errors = 0, 0, 0
+    processed, skipped_no_findings, skipped_duplicate, errors = 0, 0, 0, 0
     new_entries = []
 
     for item in queue:
         url, company = item["url"], item["company"]
+
+        if already_drafted(url, outreach):
+            skipped_duplicate += 1
+            continue
+
         try:
             resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
             resp.raise_for_status()
@@ -111,7 +121,8 @@ def main():
     with open(os.path.join(BASE, "logs", "daily.log"), "a") as f:
         f.write(
             f"{datetime.datetime.utcnow().isoformat()} | DAILY_SCAN | "
-            f"processed={processed} skipped_no_findings={skipped_no_findings} errors={errors}\n"
+            f"processed={processed} skipped_no_findings={skipped_no_findings} "
+            f"skipped_duplicate={skipped_duplicate} errors={errors}\n"
         )
 
     # keep BUSINESS_STATUS.md's pending-approval count honest and current
