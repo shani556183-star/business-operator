@@ -128,6 +128,11 @@
   <div class="stats" id="stats"></div>
 
   <section>
+    <h2>Clients</h2>
+    <div id="clients-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
     <h2>Waiting on your approval</h2>
     <div id="pending-list"><p class="empty">Loading…</p></div>
   </section>
@@ -166,6 +171,25 @@ function el(html) {
   const d = document.createElement("div");
   d.innerHTML = html.trim();
   return d.firstChild;
+}
+
+function renderClients(container, items) {
+  container.innerHTML = "";
+  if (!items.length) {
+    container.appendChild(el(`<p class="empty">No confirmed clients yet — this fills in once someone replies saying yes.</p>`));
+    return;
+  }
+  items.forEach(c => {
+    container.appendChild(el(`
+      <div class="entry">
+        <div class="entry-top">
+          <span class="name">${c.company || "Unknown"}</span>
+          <span class="status sent">${c.status || "client"}</span>
+        </div>
+        <div class="sub">${c.website || ""}${c.revenue ? " · $" + c.revenue : ""}${c.date ? " · " + c.date : ""}</div>
+      </div>
+    `));
+  });
 }
 
 function renderOutreach(container, items, kind) {
@@ -210,9 +234,10 @@ function renderQueue(container, items, outreach) {
 }
 
 async function load() {
-  const [outreach, queue] = await Promise.all([
+  const [outreach, queue, customers] = await Promise.all([
     getJSON("memory/outreach.json", []),
     getJSON("memory/prospects_queue.json", []),
+    getJSON("memory/customers.json", []),
   ]);
 
   const pending = outreach.filter(o => !o.approved);
@@ -229,11 +254,13 @@ async function load() {
     [outreach.length, "Drafts written"],
     [pending.length, "Need approval"],
     [sent.length, "Sent"],
+    [customers.length, "Clients"],
   ];
   statData.forEach(([n, l]) => {
     stats.appendChild(el(`<div class="stat"><span class="n">${n}</span><span class="l">${l}</span></div>`));
   });
 
+  renderClients(document.getElementById("clients-list"), customers);
   renderOutreach(document.getElementById("pending-list"), pending, "pending");
   renderOutreach(document.getElementById("sent-list"), sent.concat(approvedNotYetSent), "sent");
   renderQueue(document.getElementById("queue-list"), queue, outreach);
