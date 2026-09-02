@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Operator — Ledger</title>
+<style>
+  :root {
+    --paper: #FAF7F1;
+    --paper-line: #E3DDD0;
+    --ink: #23241F;
+    --ink-soft: #6B6A62;
+    --good: #2F6F4E;
+    --pending: #A6742B;
+    --alert: #A33B2B;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--paper-line);
+    padding-bottom: 24px;
+  }
+  header h1 {
+    font-family: Georgia, "Source Serif Pro", serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0 0 6px;
+  }
+  header p {
+    color: var(--ink-soft);
+    margin: 0;
+    font-size: 15px;
+  }
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 32px 0 40px;
+    border-top: 1px solid var(--paper-line);
+    border-bottom: 1px solid var(--paper-line);
+  }
+  .stat {
+    flex: 1 1 110px;
+    padding: 18px 16px;
+    border-right: 1px solid var(--paper-line);
+  }
+  .stat:last-child { border-right: none; }
+  .stat .n {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    display: block;
+  }
+  .stat .l {
+    color: var(--ink-soft);
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  section { margin-bottom: 40px; }
+  section h2 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 0 0 14px;
+  }
+  .entry {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--paper-line);
+  }
+  .entry:last-child { border-bottom: none; }
+  .entry-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .entry-top .name { font-weight: 600; }
+  .status {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .status.pending { color: var(--pending); }
+  .status.sent { color: var(--good); }
+  .entry .sub {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  .empty {
+    color: var(--ink-soft);
+    font-size: 14px;
+    font-style: italic;
+  }
+  .err {
+    color: var(--alert);
+    font-size: 14px;
+  }
+  footer {
+    color: var(--ink-soft);
+    font-size: 13px;
+    border-top: 1px solid var(--paper-line);
+    padding-top: 16px;
+  }
+  footer a { color: var(--ink-soft); }
+  @media (max-width: 480px) {
+    .stat { flex: 1 1 45%; border-right: none; border-bottom: 1px solid var(--paper-line); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Business Operator</h1>
+    <p id="subtitle">Loading current status…</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <section>
+    <h2>Waiting on your approval</h2>
+    <div id="pending-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
+    <h2>Already sent</h2>
+    <div id="sent-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
+    <h2>Prospects in the queue</h2>
+    <div id="queue-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <footer>
+    Reads live from
+    <a href="https://github.com/shani556183-star/business-operator" target="_blank">github.com/shani556183-star/business-operator</a>.
+    Refresh this page any time — nothing is stored here.
+  </footer>
+</div>
+
+<script>
+const BASE = "https://raw.githubusercontent.com/shani556183-star/business-operator/main/";
+
+async function getJSON(path, fallback) {
+  try {
+    const res = await fetch(BASE + path + "?t=" + Date.now());
+    if (!res.ok) return fallback;
+    return await res.json();
+  } catch (e) {
+    return fallback;
+  }
+}
+
+function el(html) {
+  const d = document.createElement("div");
+  d.innerHTML = html.trim();
+  return d.firstChild;
+}
+
+function renderOutreach(container, items, kind) {
+  container.innerHTML = "";
+  if (!items.length) {
+    container.appendChild(el(`<p class="empty">Nothing here yet.</p>`));
+    return;
+  }
+  items.forEach(o => {
+    const statusText = kind === "pending" ? "awaiting approval" : "sent";
+    const statusClass = kind === "pending" ? "pending" : "sent";
+    container.appendChild(el(`
+      <div class="entry">
+        <div class="entry-top">
+          <span class="name">#${o.outreach_id} — ${o.company || "Unknown"}</span>
+          <span class="status ${statusClass}">${statusText}</span>
+        </div>
+        <div class="sub">${o.subject || ""}</div>
+      </div>
+    `));
+  });
+}
+
+function renderQueue(container, items, outreach) {
+  container.innerHTML = "";
+  if (!items.length) {
+    container.appendChild(el(`<p class="empty">Queue is empty.</p>`));
+    return;
+  }
+  items.forEach(p => {
+    const already = outreach.some(o => o.website === p.url || o.company === p.company);
+    container.appendChild(el(`
+      <div class="entry">
+        <div class="entry-top">
+          <span class="name">${p.company}</span>
+          <span class="status ${already ? 'sent' : 'pending'}">${already ? 'drafted' : 'not scanned yet'}</span>
+        </div>
+        <div class="sub">${p.url}</div>
+      </div>
+    `));
+  });
+}
+
+async function load() {
+  const [outreach, queue] = await Promise.all([
+    getJSON("memory/outreach.json", []),
+    getJSON("memory/prospects_queue.json", []),
+  ]);
+
+  const pending = outreach.filter(o => !o.approved);
+  const sent = outreach.filter(o => o.approved && o.sent_at);
+  const approvedNotYetSent = outreach.filter(o => o.approved && !o.sent_at);
+
+  document.getElementById("subtitle").textContent =
+    `${outreach.length} draft(s) total · ${pending.length} waiting on you · ${sent.length} sent`;
+
+  const stats = document.getElementById("stats");
+  stats.innerHTML = "";
+  const statData = [
+    [queue.length, "Prospects queued"],
+    [outreach.length, "Drafts written"],
+    [pending.length, "Need approval"],
+    [sent.length, "Sent"],
+  ];
+  statData.forEach(([n, l]) => {
+    stats.appendChild(el(`<div class="stat"><span class="n">${n}</span><span class="l">${l}</span></div>`));
+  });
+
+  renderOutreach(document.getElementById("pending-list"), pending, "pending");
+  renderOutreach(document.getElementById("sent-list"), sent.concat(approvedNotYetSent), "sent");
+  renderQueue(document.getElementById("queue-list"), queue, outreach);
+}
+
+load();
+</script>
+</body>
+</html>
