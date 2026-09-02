@@ -12,3 +12,5 @@
 2026-09-01T08:18:06.539794 | FETCH_FAILED | https://myfurnitureworld.com | 403 Client Error: Forbidden for url: https://myfurnitureworld.com/
 2026-09-01T08:18:06.732961 | FETCH_FAILED | https://wakeforesthardware.com | 403 Client Error: Forbidden for url: https://wakeforesthardware.com/
 2026-09-01T08:18:06.932641 | FETCH_FAILED | https://townhardwaregeneralstore.com | 403 Client Error: Forbidden for url: https://townhardwaregeneralstore.com/
+2026-09-02T08:18:26.767036 | FETCH_FAILED | https://www.furnituremartnc.com | HTTPSConnectionPool(host='www.furnituremartnc.com', port=443): Read timed out. (read timeout=10)
+2026-09-02T08:18:28.069353 | FETCH_FAILED | https://myfurnitureworld.com | 403 Client Error: Forbidden for url: https://myfurnitureworld.com/

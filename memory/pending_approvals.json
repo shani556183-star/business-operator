@@ -78,5 +78,53 @@
     "level": "OWNER_REQUIRED",
     "approved": false,
     "requested_at": "2026-09-01T08:18:12.239868"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "19",
+    "description": "Outreach for Hendrixson's Furniture",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-02T08:18:27.556993"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "20",
+    "description": "Outreach for Furniture Direct FL",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-02T08:18:27.924674"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "21",
+    "description": "Outreach for B & W Hardware Co.",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-02T08:18:28.251947"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "22",
+    "description": "Outreach for Town Hardware General Store",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-02T08:18:28.467677"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "23",
+    "description": "Outreach for HomeTown Solutions",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-02T08:18:29.527962"
+  },
+  {
+    "action": "send_outreach",
+    "item_id": "24",
+    "description": "Outreach for Little Fawn Hardware",
+    "level": "OWNER_REQUIRED",
+    "approved": false,
+    "requested_at": "2026-09-02T08:18:29.837796"
   }
 ]

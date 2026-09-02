@@ -20,7 +20,7 @@ Last updated: 2026-08-31
 ## Outreach
 - Sent: 0
 - Approved by owner: 0
-- Pending owner approval: 10 drafts
+- Pending owner approval: 16 drafts
 
 ## Replies
 - 0 (no outreach sent yet)
