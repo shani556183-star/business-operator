@@ -97,7 +97,7 @@
     font-size: 14px;
     margin-top: 3px;
   }
-  .entry-top { cursor: pointer; }
+  .entry-top.expandable { cursor: pointer; }
   .hint {
     color: var(--ink-soft);
     font-size: 13px;
@@ -259,7 +259,7 @@ function renderClients(container, items) {
     return;
   }
   items.forEach(c => {
-    container.appendChild(el(`
+    const entry = el(`
       <div class="entry">
         <div class="entry-top">
           <span class="name">${c.company || "Unknown"}</span>
@@ -267,7 +267,13 @@ function renderClients(container, items) {
         </div>
         <div class="sub">${c.website || ""}${c.revenue ? " · $" + c.revenue : ""}${c.date ? " · " + c.date : ""}</div>
       </div>
-    `));
+    `);
+    if (c.website) {
+      const actions = el(`<div class="actions"></div>`);
+      actions.appendChild(el(`<a class="btn btn-link" href="${c.website}" target="_blank" rel="noopener">Visit website →</a>`));
+      entry.appendChild(actions);
+    }
+    container.appendChild(entry);
   });
 }
 
@@ -281,7 +287,7 @@ function renderOutreach(container, items, kind) {
     const statusText = kind === "pending" ? "awaiting approval" : "sent";
     const statusClass = kind === "pending" ? "pending" : "sent";
     const entry = el(`
-      <div class="entry">
+      <div class="entry" id="entry-${o.outreach_id}">
         <div class="entry-top">
           <span class="name">#${o.outreach_id} — ${o.company || "Unknown"}</span>
           <span class="status ${statusClass}">${statusText}</span>
@@ -292,7 +298,9 @@ function renderOutreach(container, items, kind) {
     `);
 
     const bodyDiv = entry.querySelector(".full-body");
-    entry.querySelector(".entry-top").addEventListener("click", () => {
+    const top = entry.querySelector(".entry-top");
+    top.classList.add("expandable");
+    top.addEventListener("click", () => {
       bodyDiv.hidden = !bodyDiv.hidden;
     });
 
@@ -301,20 +309,19 @@ function renderOutreach(container, items, kind) {
     bodyText.textContent = o.body || "(no message text)";
     bodyDiv.appendChild(bodyText);
 
+    const actions = el(`<div class="actions"></div>`);
     if (o.website) {
-      bodyDiv.appendChild(el(`<div class="sub" style="margin-top:8px;">${o.website}</div>`));
+      actions.appendChild(el(`<a class="btn btn-link" href="${o.website}" target="_blank" rel="noopener">Visit website →</a>`));
     }
-
     if (kind === "pending") {
-      const actions = el(`<div class="actions"></div>`);
       const copyBtn = el(`<button class="btn">Copy APPROVE ${o.outreach_id}</button>`);
       copyBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         copyText(`APPROVE ${o.outreach_id}`, copyBtn);
       });
       actions.appendChild(copyBtn);
-      bodyDiv.appendChild(actions);
     }
+    if (actions.children.length) bodyDiv.appendChild(actions);
 
     container.appendChild(entry);
   });
@@ -345,16 +352,31 @@ function renderQueue(container, items, outreach) {
     return;
   }
   items.forEach(p => {
-    const already = outreach.some(o => o.website === p.url || o.company === p.company);
-    container.appendChild(el(`
+    const match = outreach.find(o => o.website === p.url || o.company === p.company);
+    const entry = el(`
       <div class="entry">
         <div class="entry-top">
           <span class="name">${p.company}</span>
-          <span class="status ${already ? 'sent' : 'pending'}">${already ? 'drafted' : 'not scanned yet'}</span>
+          <span class="status ${match ? 'sent' : 'pending'}">${match ? 'drafted' : 'not scanned yet'}</span>
         </div>
         <div class="sub">${p.url}</div>
+        <div class="actions"></div>
       </div>
-    `));
+    `);
+    const actions = entry.querySelector(".actions");
+    actions.appendChild(el(`<a class="btn btn-link" href="${p.url}" target="_blank" rel="noopener">Visit website →</a>`));
+    if (match) {
+      const jumpBtn = el(`<button class="btn">View draft ↓</button>`);
+      jumpBtn.addEventListener("click", () => {
+        const target = document.getElementById(`entry-${match.outreach_id}`);
+        if (!target) return;
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
+        const body = target.querySelector(".full-body");
+        if (body) body.hidden = false;
+      });
+      actions.appendChild(jumpBtn);
+    }
+    container.appendChild(entry);
   });
 }
 
