@@ -97,6 +97,44 @@
     font-size: 14px;
     margin-top: 3px;
   }
+  .entry-top { cursor: pointer; }
+  .hint {
+    color: var(--ink-soft);
+    font-size: 13px;
+    margin: -8px 0 14px;
+  }
+  .full-body {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--paper-line);
+  }
+  .body-text {
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+  .actions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .bulk-actions:empty { margin: 0; }
+  .btn {
+    font: inherit;
+    font-size: 13px;
+    padding: 7px 12px;
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn:hover { background: var(--ink); color: var(--paper); }
+  .btn.copied { background: var(--good); border-color: var(--good); color: #fff; }
+  .btn-link { border-color: var(--pending); color: var(--pending); }
+  .btn-link:hover { background: var(--pending); color: #fff; }
   .empty {
     color: var(--ink-soft);
     font-size: 14px;
@@ -134,6 +172,8 @@
 
   <section>
     <h2>Waiting on your approval</h2>
+    <p class="hint">Click an entry to read the full message. Copy the approval command, then paste it as a comment on the GitHub issue.</p>
+    <div class="bulk-actions" id="bulk-actions"></div>
     <div id="pending-list"><p class="empty">Loading…</p></div>
   </section>
 
@@ -173,6 +213,45 @@ function el(html) {
   return d.firstChild;
 }
 
+const REPO = "shani556183-star/business-operator";
+
+async function getApprovalIssueUrl() {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${REPO}/issues?labels=outreach-approval&state=open&sort=created&direction=desc`);
+    if (!res.ok) return null;
+    const issues = await res.json();
+    return issues.length ? issues[0].html_url : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function fallbackCopy(text) {
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand("copy"); } catch (e) {}
+  document.body.removeChild(ta);
+}
+
+function copyText(text, btn) {
+  const orig = btn.textContent;
+  const flash = () => {
+    btn.textContent = "Copied!";
+    btn.classList.add("copied");
+    setTimeout(() => { btn.textContent = orig; btn.classList.remove("copied"); }, 1500);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(flash).catch(() => { fallbackCopy(text); flash(); });
+  } else {
+    fallbackCopy(text);
+    flash();
+  }
+}
+
 function renderClients(container, items) {
   container.innerHTML = "";
   if (!items.length) {
@@ -201,16 +280,62 @@ function renderOutreach(container, items, kind) {
   items.forEach(o => {
     const statusText = kind === "pending" ? "awaiting approval" : "sent";
     const statusClass = kind === "pending" ? "pending" : "sent";
-    container.appendChild(el(`
+    const entry = el(`
       <div class="entry">
         <div class="entry-top">
           <span class="name">#${o.outreach_id} — ${o.company || "Unknown"}</span>
           <span class="status ${statusClass}">${statusText}</span>
         </div>
         <div class="sub">${o.subject || ""}</div>
+        <div class="full-body" hidden></div>
       </div>
-    `));
+    `);
+
+    const bodyDiv = entry.querySelector(".full-body");
+    entry.querySelector(".entry-top").addEventListener("click", () => {
+      bodyDiv.hidden = !bodyDiv.hidden;
+    });
+
+    const bodyText = document.createElement("div");
+    bodyText.className = "body-text";
+    bodyText.textContent = o.body || "(no message text)";
+    bodyDiv.appendChild(bodyText);
+
+    if (o.website) {
+      bodyDiv.appendChild(el(`<div class="sub" style="margin-top:8px;">${o.website}</div>`));
+    }
+
+    if (kind === "pending") {
+      const actions = el(`<div class="actions"></div>`);
+      const copyBtn = el(`<button class="btn">Copy APPROVE ${o.outreach_id}</button>`);
+      copyBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        copyText(`APPROVE ${o.outreach_id}`, copyBtn);
+      });
+      actions.appendChild(copyBtn);
+      bodyDiv.appendChild(actions);
+    }
+
+    container.appendChild(entry);
   });
+}
+
+function renderBulkActions(pending, issueUrl) {
+  const container = document.getElementById("bulk-actions");
+  container.innerHTML = "";
+  if (!pending.length) return;
+
+  const ids = pending.map(o => o.outreach_id).join(",");
+  const row = el(`<div class="actions"></div>`);
+
+  const copyAllBtn = el(`<button class="btn">Copy APPROVE ${ids}</button>`);
+  copyAllBtn.addEventListener("click", () => copyText(`APPROVE ${ids}`, copyAllBtn));
+  row.appendChild(copyAllBtn);
+
+  const link = issueUrl || `https://github.com/${REPO}/issues?q=is%3Aissue+is%3Aopen+label%3Aoutreach-approval`;
+  row.appendChild(el(`<a class="btn btn-link" href="${link}" target="_blank" rel="noopener">Open approval issue on GitHub →</a>`));
+
+  container.appendChild(row);
 }
 
 function renderQueue(container, items, outreach) {
@@ -234,10 +359,11 @@ function renderQueue(container, items, outreach) {
 }
 
 async function load() {
-  const [outreach, queue, customers] = await Promise.all([
+  const [outreach, queue, customers, issueUrl] = await Promise.all([
     getJSON("memory/outreach.json", []),
     getJSON("memory/prospects_queue.json", []),
     getJSON("memory/customers.json", []),
+    getApprovalIssueUrl(),
   ]);
 
   const pending = outreach.filter(o => !o.approved);
@@ -261,6 +387,7 @@ async function load() {
   });
 
   renderClients(document.getElementById("clients-list"), customers);
+  renderBulkActions(pending, issueUrl);
   renderOutreach(document.getElementById("pending-list"), pending, "pending");
   renderOutreach(document.getElementById("sent-list"), sent.concat(approvedNotYetSent), "sent");
   renderQueue(document.getElementById("queue-list"), queue, outreach);
