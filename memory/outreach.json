@@ -15,7 +15,7 @@
     "company": "Zebulon Hardware",
     "subject": "Congrats on the new Zebulon store",
     "body": "Hi,\n\nCongrats on building Zebulon Hardware into the town's go-to spot since 2023 - saw the community backstory on your site, great story.\n\nOne thing I noticed: your blog content is split across two places - zebulonhardware.com/blogs/news and a separate trends.zebulonhardware.com subdomain. Search engines generally treat a subdomain as a semi-separate site, so that split can quietly dilute the SEO value both are trying to build. Consolidating onto one would likely help.\n\nI do a quick $29 SEO health check for small local retailers if useful - happy to send it over.",
-    "personalization_basis": "FULLY_FETCHED \u2014 live fetch on 2026-08-31, blog/subdomain split genuinely observed (corrected from earlier unverified draft)",
+    "personalization_basis": "FULLY_FETCHED — live fetch on 2026-08-31, blog/subdomain split genuinely observed (corrected from earlier unverified draft)",
     "approved": true,
     "contact_email": "hooperstruevaluehardware@gmail.com"
   },
@@ -24,8 +24,8 @@
     "company": "Hendrixson's Furniture",
     "website": "https://www.hendrixsonsfurniture.com",
     "subject": "Quick note about https://www.hendrixsonsfurniture.com",
-    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -33,8 +33,8 @@
     "company": "Furniture Direct FL",
     "website": "https://www.furnituredirectfl.com",
     "subject": "Quick note about https://www.furnituredirectfl.com",
-    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -42,8 +42,8 @@
     "company": "B & W Hardware Co.",
     "website": "https://wakeforesthardware.com",
     "subject": "Quick note about https://wakeforesthardware.com",
-    "body": "Hi,\n\nI came across B & W Hardware Co.'s website while researching local businesses and noticed something worth a quick look: Title is 61 characters: \"Wake Forest's family owned-and-operated - B & W Hardware, Co.\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across B & W Hardware Co.'s website while researching local businesses and noticed something worth a quick look: Title is 61 characters: \"Wake Forest's family owned-and-operated - B & W Hardware, Co.\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -51,8 +51,8 @@
     "company": "Town Hardware General Store",
     "website": "https://townhardwaregeneralstore.com",
     "subject": "Quick note about https://townhardwaregeneralstore.com",
-    "body": "Hi,\n\nI came across Town Hardware General Store's website while researching local businesses and noticed something worth a quick look: 280 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Town Hardware General Store's website while researching local businesses and noticed something worth a quick look: 280 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -60,8 +60,8 @@
     "company": "HomeTown Solutions",
     "website": "https://www.hometownsolutionswv.com",
     "subject": "Quick note about https://www.hometownsolutionswv.com",
-    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -69,8 +69,8 @@
     "company": "Little Fawn Hardware",
     "website": "https://littlefawnllc.com",
     "subject": "Quick note about https://littlefawnllc.com",
-    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: Title is 65 characters: \"Outdoor Sheds | Building Materials | Hardware Store | Little Fawn\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: Title is 65 characters: \"Outdoor Sheds | Building Materials | Hardware Store | Little Fawn\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -78,8 +78,8 @@
     "company": "Hendrixson's Furniture",
     "website": "https://www.hendrixsonsfurniture.com",
     "subject": "Quick note about https://www.hendrixsonsfurniture.com",
-    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -87,8 +87,8 @@
     "company": "Furniture Direct FL",
     "website": "https://www.furnituredirectfl.com",
     "subject": "Quick note about https://www.furnituredirectfl.com",
-    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -96,8 +96,8 @@
     "company": "HomeTown Solutions",
     "website": "https://www.hometownsolutionswv.com",
     "subject": "Quick note about https://www.hometownsolutionswv.com",
-    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -105,8 +105,8 @@
     "company": "Little Fawn Hardware",
     "website": "https://littlefawnllc.com",
     "subject": "Quick note about https://littlefawnllc.com",
-    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -114,8 +114,8 @@
     "company": "Hendrixson's Furniture",
     "website": "https://www.hendrixsonsfurniture.com",
     "subject": "Quick note about https://www.hendrixsonsfurniture.com",
-    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Hendrixson's Furniture's website while researching local businesses and noticed something worth a quick look: 19 of 60 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -123,8 +123,8 @@
     "company": "Furniture Direct FL",
     "website": "https://www.furnituredirectfl.com",
     "subject": "Quick note about https://www.furnituredirectfl.com",
-    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Furniture Direct FL's website while researching local businesses and noticed something worth a quick look: Google has not used this tag as a ranking signal since 2009. (Legacy <meta name=\"keywords\"> tag present).\n\nSafe to remove; not harmful, but signals the site hasn't had an SEO pass recently.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -132,8 +132,8 @@
     "company": "B & W Hardware Co.",
     "website": "https://wakeforesthardware.com",
     "subject": "Quick note about https://wakeforesthardware.com",
-    "body": "Hi,\n\nI came across B & W Hardware Co.'s website while researching local businesses and noticed something worth a quick look: Title is 61 characters: \"Wake Forest's family owned-and-operated - B & W Hardware, Co.\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across B & W Hardware Co.'s website while researching local businesses and noticed something worth a quick look: Title is 61 characters: \"Wake Forest's family owned-and-operated - B & W Hardware, Co.\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -141,8 +141,8 @@
     "company": "Town Hardware General Store",
     "website": "https://townhardwaregeneralstore.com",
     "subject": "Quick note about https://townhardwaregeneralstore.com",
-    "body": "Hi,\n\nI came across Town Hardware General Store's website while researching local businesses and noticed something worth a quick look: 280 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Town Hardware General Store's website while researching local businesses and noticed something worth a quick look: 280 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -150,8 +150,8 @@
     "company": "HomeTown Solutions",
     "website": "https://www.hometownsolutionswv.com",
     "subject": "Quick note about https://www.hometownsolutionswv.com",
-    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across HomeTown Solutions's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: ['HomeTown Solutions', \"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
   },
   {
@@ -159,8 +159,679 @@
     "company": "Little Fawn Hardware",
     "website": "https://littlefawnllc.com",
     "subject": "Quick note about https://littlefawnllc.com",
-    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: Title is 65 characters: \"Outdoor Sheds | Building Materials | Hardware Store | Little Fawn\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things \u2014 happy to send the full report over if useful.",
-    "personalization_basis": "FULLY_FETCHED \u2014 automated daily scan",
+    "body": "Hi,\n\nI came across Little Fawn Hardware's website while researching local businesses and noticed something worth a quick look: Title is 65 characters: \"Outdoor Sheds | Building Materials | Hardware Store | Little Fawn\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — automated daily scan",
     "approved": false
+  },
+  {
+    "outreach_id": 25,
+    "prospect_id": "P011",
+    "company": "OldTown Furniture",
+    "website": "https://oldtownfurnitures.com",
+    "subject": "Quick note about https://oldtownfurnitures.com",
+    "body": "Hi,\n\nI came across OldTown Furniture's website while researching local businesses and noticed something worth a quick look: 31 of 37 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "OldTown@sonic.net"
+  },
+  {
+    "outreach_id": 26,
+    "prospect_id": "P012",
+    "company": "Ohio Furniture Mart",
+    "website": "https://ohiofurnituremart.com",
+    "subject": "Quick note about https://ohiofurnituremart.com",
+    "body": "Hi,\n\nI came across Ohio Furniture Mart's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Labor Day Sales Event!\",\"Flexible Financing Options\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "service@ohiofurnituremart.com"
+  },
+  {
+    "outreach_id": 27,
+    "prospect_id": "P013",
+    "company": "Payless Furniture",
+    "website": "https://paylessfurnitureohio.com",
+    "subject": "Quick note about https://paylessfurnitureohio.com",
+    "body": "Hi,\n\nI came across Payless Furniture's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Payless Furniture (Columbus,OH)\",\"Payless Furniture\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "paylessohio@gmail.com"
+  },
+  {
+    "outreach_id": 28,
+    "prospect_id": "P014",
+    "company": "LaChance Furniture (LaChance Interiors)",
+    "website": "https://lachancefurniture.com",
+    "subject": "Quick note about https://lachancefurniture.com",
+    "body": "Hi,\n\nI came across LaChance Furniture (LaChance Interiors)'s website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "sales@lachancefurniture.com"
+  },
+  {
+    "outreach_id": 29,
+    "prospect_id": "P015",
+    "company": "Town & Country Furniture & Appliances",
+    "website": "https://tcfurn.com",
+    "subject": "Quick note about https://tcfurn.com",
+    "body": "Hi,\n\nI came across Town & Country Furniture & Appliances's website while researching local businesses and noticed something worth a quick look: 3 <h1> tags found: [\"Kitchen Appliances\",\"Laundry Appliances\",\"Real Reviews From Real Customers\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "marketing@tcfurn.com"
+  },
+  {
+    "outreach_id": 30,
+    "prospect_id": "P016",
+    "company": "Woodrich West",
+    "website": "https://woodrichwest.com",
+    "subject": "Quick note about https://woodrichwest.com",
+    "body": "Hi,\n\nI came across Woodrich West's website while researching local businesses and noticed something worth a quick look: 3 of 8 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@woodrichwest.com"
+  },
+  {
+    "outreach_id": 31,
+    "prospect_id": "P017",
+    "company": "Furniture and Things",
+    "website": "https://furnitureandthings.com",
+    "subject": "Quick note about https://furnitureandthings.com",
+    "body": "Hi,\n\nI came across Furniture and Things's website while researching local businesses and noticed something worth a quick look: 6 of 82 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "sales@furnitureandthings.com"
+  },
+  {
+    "outreach_id": 32,
+    "prospect_id": "P018",
+    "company": "New England Furniture",
+    "website": "https://newenglandfurniture.net",
+    "subject": "Quick note about https://newenglandfurniture.net",
+    "body": "Hi,\n\nI came across New England Furniture's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "nefurniturenh@gmail.com"
+  },
+  {
+    "outreach_id": 33,
+    "prospect_id": "P019",
+    "company": "Gardner Outlet Furniture",
+    "website": "https://gardneroutletfurniture.com",
+    "subject": "Quick note about https://gardneroutletfurniture.com",
+    "body": "Hi,\n\nI came across Gardner Outlet Furniture's website while researching local businesses and noticed something worth a quick look: 3 of 43 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "sales@gardneroutletfurniture.com"
+  },
+  {
+    "outreach_id": 34,
+    "prospect_id": "P020",
+    "company": "Family Home Furniture",
+    "website": "https://myfamilyhomefurniture.com",
+    "subject": "Quick note about https://myfamilyhomefurniture.com",
+    "body": "Hi,\n\nI came across Family Home Furniture's website while researching local businesses and noticed something worth a quick look: H1: \"Financing & Leasing Options Available\" | Title: \"Family Home Furniture - Millbrook, AL\" (H1 doesn't reinforce the title's target keyword).\n\nRework the H1 to include the same core keyword as the title tag.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@myfamilyhomefurniture.com"
+  },
+  {
+    "outreach_id": 35,
+    "prospect_id": "P021",
+    "company": "West Bend Furniture & Design",
+    "website": "https://westbendfurniture.com",
+    "subject": "Quick note about https://westbendfurniture.com",
+    "body": "Hi,\n\nI came across West Bend Furniture & Design's website while researching local businesses and noticed something worth a quick look: 1 of 20 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@westbendfurniture.com"
+  },
+  {
+    "outreach_id": 36,
+    "prospect_id": "P022",
+    "company": "Rubin's Furniture",
+    "website": "https://rubinsfurniture.com",
+    "subject": "Quick note about https://rubinsfurniture.com",
+    "body": "Hi,\n\nI came across Rubin's Furniture's website while researching local businesses and noticed something worth a quick look: Title: \"Rubin's Furniture is here to help you with your furniture and accessory needs.\" | Description: \"Family-owned since 1921, Rubin's Furniture offers premium modern and transitional furniture, complimentary interior design services, and white glove delivery throughout the Madison area.\" -- low keyword overlap. (Title/meta description may be inconsistent).\n\nAlign the description with everything promised in the title (e.g. all locations/services named in the title).\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@rubinsfurniture.com"
+  },
+  {
+    "outreach_id": 37,
+    "prospect_id": "P023",
+    "company": "Yorktowne Furniture & Hake's Home Furnishings",
+    "website": "https://hakeshomefurnishings.com",
+    "subject": "Quick note about https://hakeshomefurnishings.com",
+    "body": "Hi,\n\nI came across Yorktowne Furniture & Hake's Home Furnishings's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "hakeshomefurnishings@gmail.com"
+  },
+  {
+    "outreach_id": 38,
+    "prospect_id": "P024",
+    "company": "Chertok's Furniture and Mattress",
+    "website": "https://chertoksfurniture.com",
+    "subject": "Quick note about https://chertoksfurniture.com",
+    "body": "Hi,\n\nI came across Chertok's Furniture and Mattress's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Shop By Category\",\"Don't Miss these Deals & Join our Email \"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "chertokfurniture@gmail.com"
+  },
+  {
+    "outreach_id": 39,
+    "prospect_id": "P025",
+    "company": "Winglemire Furniture",
+    "website": "https://winglemire.com",
+    "subject": "Quick note about https://winglemire.com",
+    "body": "Hi,\n\nI came across Winglemire Furniture's website while researching local businesses and noticed something worth a quick look: 4 <h1> tags found: [\"Live beautifully\",\"We make it easy to find the perfect furn\",\"Special Orders\",\"Free Delivery\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@winglemire.com"
+  },
+  {
+    "outreach_id": 40,
+    "prospect_id": "P026",
+    "company": "Naturally Wood Furniture & Mattress",
+    "website": "https://naturallywoodfurniturecenter.com",
+    "subject": "Quick note about https://naturallywoodfurniturecenter.com",
+    "body": "Hi,\n\nI came across Naturally Wood Furniture & Mattress's website while researching local businesses and noticed something worth a quick look: 35 of 46 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "sales@naturallywood.biz"
+  },
+  {
+    "outreach_id": 41,
+    "prospect_id": "P027",
+    "company": "Groen's Fine Furniture",
+    "website": "https://groensfinefurniture.com",
+    "subject": "Quick note about https://groensfinefurniture.com",
+    "body": "Hi,\n\nI came across Groen's Fine Furniture's website while researching local businesses and noticed something worth a quick look: Title is 74 characters: \"Online Furniture Store Dyer & Crown Point IN - Groen's Fine Furniture\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "sales@groenfurniture.com"
+  },
+  {
+    "outreach_id": 42,
+    "prospect_id": "P038",
+    "company": "Denver True Value Hardware",
+    "website": "https://denvertruevalue.com/",
+    "subject": "Quick note about https://denvertruevalue.com/",
+    "body": "Hi,\n\nI came across Denver True Value Hardware's website while researching local businesses and noticed something worth a quick look: Approximately 90 visible words detected on this page. (Thin content on page).\n\nExpand with genuinely useful content (buying guides, FAQs) -- thin pages rank poorly.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "lauren@denvertruevalue.com"
+  },
+  {
+    "outreach_id": 43,
+    "prospect_id": "P039",
+    "company": "West Des Moines True Value",
+    "website": "https://truevaluewdm.com/",
+    "subject": "Quick note about https://truevaluewdm.com/",
+    "body": "Hi,\n\nI came across West Des Moines True Value's website while researching local businesses and noticed something worth a quick look: Approximately 92 visible words detected on this page. (Thin content on page).\n\nExpand with genuinely useful content (buying guides, FAQs) -- thin pages rank poorly.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "wdmtruevalue@truevalue.net"
+  },
+  {
+    "outreach_id": 44,
+    "prospect_id": "P042",
+    "company": "Fix & Feed Hardware",
+    "website": "https://fixandfeed.com/",
+    "subject": "Quick note about https://fixandfeed.com/",
+    "body": "Hi,\n\nI came across Fix & Feed Hardware's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "orders@fixandfeed.com"
+  },
+  {
+    "outreach_id": 45,
+    "prospect_id": "P047",
+    "company": "73rd Street Hardware",
+    "website": "https://73rdstreethardware.net/",
+    "subject": "Quick note about https://73rdstreethardware.net/",
+    "body": "Hi,\n\nI came across 73rd Street Hardware's website while researching local businesses and noticed something worth a quick look: H1: \"Tools and Services for Home Improvement\" | Title: \"73rd Street Hardware - Hardware Store Upper West Side, Hardware Store\" (H1 doesn't reinforce the title's target keyword).\n\nRework the H1 to include the same core keyword as the title tag.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "73hardware@gmail.com"
+  },
+  {
+    "outreach_id": 46,
+    "prospect_id": "P048",
+    "company": "Warshaw Hardware",
+    "website": "https://www.warshawhardware.com/",
+    "subject": "Quick note about https://www.warshawhardware.com/",
+    "body": "Hi,\n\nI came across Warshaw Hardware's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "customerservice@warshawhardware.com"
+  },
+  {
+    "outreach_id": 47,
+    "prospect_id": "P052",
+    "company": "Hartville Hardware",
+    "website": "https://www.hartvillehardware.com/",
+    "subject": "Quick note about https://www.hartvillehardware.com/",
+    "body": "Hi,\n\nI came across Hartville Hardware's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "services@hartvillehardware.com"
+  },
+  {
+    "outreach_id": 48,
+    "prospect_id": "P053",
+    "company": "Hippo Hardware & Trading Company",
+    "website": "https://www.hippohardware.com/",
+    "subject": "Quick note about https://www.hippohardware.com/",
+    "body": "Hi,\n\nI came across Hippo Hardware & Trading Company's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "hippohardware@gmail.com"
+  },
+  {
+    "outreach_id": 49,
+    "prospect_id": "P054",
+    "company": "Action Hardware",
+    "website": "https://actionhardwarede.com/",
+    "subject": "Quick note about https://actionhardwarede.com/",
+    "body": "Hi,\n\nI came across Action Hardware's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Action Hardware\",\"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "actionhardwareInfo1@gmail.com"
+  },
+  {
+    "outreach_id": 50,
+    "prospect_id": "P055",
+    "company": "Fairfax Hardware",
+    "website": "https://fairfaxhardwarede.com/",
+    "subject": "Quick note about https://fairfaxhardwarede.com/",
+    "body": "Hi,\n\nI came across Fairfax Hardware's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Fairfax Hardware\",\"Don't have an account yet?\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "fairfaxhardwareInfo1@gmail.com"
+  },
+  {
+    "outreach_id": 51,
+    "prospect_id": "P056",
+    "company": "Independent Hardware, Inc.",
+    "website": "https://independenthardware.com/",
+    "subject": "Quick note about https://independenthardware.com/",
+    "body": "Hi,\n\nI came across Independent Hardware, Inc.'s website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "sales@independenthardware.com"
+  },
+  {
+    "outreach_id": 52,
+    "prospect_id": "P061",
+    "company": "Tonkadale Greenhouse",
+    "website": "https://tonkadale.com/",
+    "subject": "Quick note about https://tonkadale.com/",
+    "body": "Hi,\n\nI came across Tonkadale Greenhouse's website while researching local businesses and noticed something worth a quick look: Title is 94 characters: \"Tonkadale Greenhouse | Minnetonka&#x27;s favorite family-owned garden center and plant nursery\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "hello@tonkadale.com"
+  },
+  {
+    "outreach_id": 53,
+    "prospect_id": "P064",
+    "company": "Tex-Scapes Nursery",
+    "website": "https://texscapesnursery.com/",
+    "subject": "Quick note about https://texscapesnursery.com/",
+    "body": "Hi,\n\nI came across Tex-Scapes Nursery's website while researching local businesses and noticed something worth a quick look: 11 of 35 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@texscapesnursery.com"
+  },
+  {
+    "outreach_id": 54,
+    "prospect_id": "P065",
+    "company": "Blooming Colors Nursery",
+    "website": "https://bloomingcolorsnursery.com/",
+    "subject": "Quick note about https://bloomingcolorsnursery.com/",
+    "body": "Hi,\n\nI came across Blooming Colors Nursery's website while researching local businesses and noticed something worth a quick look: 14 <h1> tags found on the page (should be exactly one). (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "bloomingcolors@bloomingcolorsnursery.com"
+  },
+  {
+    "outreach_id": 55,
+    "prospect_id": "P066",
+    "company": "Spillane's Nursery",
+    "website": "https://www.spillanesnursery.com/",
+    "subject": "Quick note about https://www.spillanesnursery.com/",
+    "body": "Hi,\n\nI came across Spillane's Nursery's website while researching local businesses and noticed something worth a quick look: Title is 96 characters: \"Massachusett's premiere full-service landscaping company. – Spillane's Nursery\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "tspillanejr@spillanesnursery.com"
+  },
+  {
+    "outreach_id": 56,
+    "prospect_id": "P067",
+    "company": "Valley Nursery",
+    "website": "https://valleynurseryinc.com/",
+    "subject": "Quick note about https://valleynurseryinc.com/",
+    "body": "Hi,\n\nI came across Valley Nursery's website while researching local businesses and noticed something worth a quick look: H1: \"Where Poulsbo Comes to Grow\" | Title: \"Valley Nursery | Poulsbo's Premier Garden Center & Plant Nursery\" (H1 doesn't reinforce the title's target keyword).\n\nRework the H1 to include the same core keyword as the title tag.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@valleynurseryinc.com"
+  },
+  {
+    "outreach_id": 57,
+    "prospect_id": "P068",
+    "company": "One Green World",
+    "website": "https://onegreenworld.com/",
+    "subject": "Quick note about https://onegreenworld.com/",
+    "body": "Hi,\n\nI came across One Green World's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@onegreenworld.com"
+  },
+  {
+    "outreach_id": 58,
+    "prospect_id": "P069",
+    "company": "Pets on Broadway NYC",
+    "website": "https://petsonbroadwaynyc.com/",
+    "subject": "Quick note about https://petsonbroadwaynyc.com/",
+    "body": "Hi,\n\nI came across Pets on Broadway NYC's website while researching local businesses and noticed something worth a quick look: 166 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "petsonbroadwaynyc2@gmail.com"
+  },
+  {
+    "outreach_id": 59,
+    "prospect_id": "P070",
+    "company": "Pet Pantry Warehouse",
+    "website": "https://www.ppwpet.com/",
+    "subject": "Quick note about https://www.ppwpet.com/",
+    "body": "Hi,\n\nI came across Pet Pantry Warehouse's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@ppwpet.com"
+  },
+  {
+    "outreach_id": 60,
+    "prospect_id": "P074",
+    "company": "Incredible Pets",
+    "website": "https://incredpets.com/",
+    "subject": "Quick note about https://incredpets.com/",
+    "body": "Hi,\n\nI came across Incredible Pets's website while researching local businesses and noticed something worth a quick look: Title: \"Incredible Pets\" | Description: \"A family-owned business serving pet parents since 1995...\" -- low keyword overlap. (Title/meta description may be inconsistent).\n\nAlign the description with everything promised in the title (e.g. all locations/services named in the title).\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "Hello@incredpets.com"
+  },
+  {
+    "outreach_id": 61,
+    "prospect_id": "P075",
+    "company": "All The Best Pet Care",
+    "website": "https://www.allthebestpetcare.com/",
+    "subject": "Quick note about https://www.allthebestpetcare.com/",
+    "body": "Hi,\n\nI came across All The Best Pet Care's website while researching local businesses and noticed something worth a quick look: Title: \"Same day local delivery for dog and cat supplies\" | Description names 9 WA cities -- low keyword overlap. (Title/meta description may be inconsistent).\n\nAlign the description with everything promised in the title (e.g. all locations/services named in the title).\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "customercare@allthebestpetcare.com"
+  },
+  {
+    "outreach_id": 62,
+    "prospect_id": "P077",
+    "company": "New Leaf Nursery",
+    "website": "https://newleafnurseryhayden.com/",
+    "subject": "Quick note about https://newleafnurseryhayden.com/",
+    "body": "Hi,\n\nI came across New Leaf Nursery's website while researching local businesses and noticed something worth a quick look: 249 characters. (Meta description too long).\n\nTrim to under 160 characters.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "newleaf@newleafnurseryhayden.com"
+  },
+  {
+    "outreach_id": 63,
+    "prospect_id": "P080",
+    "company": "Hidden Ponds Nursery",
+    "website": "https://www.hiddenpondsnursery.com/",
+    "subject": "Quick note about https://www.hiddenpondsnursery.com/",
+    "body": "Hi,\n\nI came across Hidden Ponds Nursery's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@hiddenpondsnursery.com"
+  },
+  {
+    "outreach_id": 64,
+    "prospect_id": "P081",
+    "company": "Zoo Creatures New England",
+    "website": "https://www.zoocreatures.com/",
+    "subject": "Quick note about https://www.zoocreatures.com/",
+    "body": "Hi,\n\nI came across Zoo Creatures New England's website while researching local businesses and noticed something worth a quick look: Title is 70 characters: \"Exotic and Unique Pet Store & Pet Supplies - Zoo Creatures New England\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "ZooCreaturesPetStore@gmail.com"
+  },
+  {
+    "outreach_id": 65,
+    "prospect_id": "P082",
+    "company": "Depot Town Cats and Dogs",
+    "website": "https://www.ypsicatsanddogs.com/",
+    "subject": "Quick note about https://www.ypsicatsanddogs.com/",
+    "body": "Hi,\n\nI came across Depot Town Cats and Dogs's website while researching local businesses and noticed something worth a quick look: Title is 83 characters: \"Depot Town Cats & Dogs INDIE PET SUPPLY - Depot Town Cats and Dogs Indie Pet Supply\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@ypsicatsanddogs.com"
+  },
+  {
+    "outreach_id": 66,
+    "prospect_id": "P083",
+    "company": "Glynn Young's Landscaping and Nursery Center",
+    "website": "https://www.glynnyoungsnursery.com/",
+    "subject": "Quick note about https://www.glynnyoungsnursery.com/",
+    "body": "Hi,\n\nI came across Glynn Young's Landscaping and Nursery Center's website while researching local businesses and noticed something worth a quick look: Title is 81 characters: \"Glynn Young's Landscaping and Nursery Center | Nursery Center | Nicholasville, KY\" (Title tag too long).\n\nShorten to under 60 characters so it doesn't get truncated in search results.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "gylandscaping@windstream.net"
+  },
+  {
+    "outreach_id": 67,
+    "prospect_id": "P085",
+    "company": "Baeten's Nursery",
+    "website": "https://baetensnursery.com/",
+    "subject": "Quick note about https://baetensnursery.com/",
+    "body": "Hi,\n\nI came across Baeten's Nursery's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "baetensnursery@fuse.net"
+  },
+  {
+    "outreach_id": 68,
+    "prospect_id": "P086",
+    "company": "Kinsey Gardens Inc",
+    "website": "https://www.kinseygardens.com/",
+    "subject": "Quick note about https://www.kinseygardens.com/",
+    "body": "Hi,\n\nI came across Kinsey Gardens Inc's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "KinseyGardens@gmail.com"
+  },
+  {
+    "outreach_id": 69,
+    "prospect_id": "P089",
+    "company": "The Bicycle Hub",
+    "website": "https://thebicyclehubpec.com/",
+    "subject": "Quick note about https://thebicyclehubpec.com/",
+    "body": "Hi,\n\nI came across The Bicycle Hub's website while researching local businesses and noticed something worth a quick look: 5 <h1> tags found: [\"Stop In and See Us! \",\"Coming Soon\",\"Our  Services\",\"Have Questions?\",\"Follow Along\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "contact@thebicyclehubpec.com"
+  },
+  {
+    "outreach_id": 70,
+    "prospect_id": "P090",
+    "company": "South Lake Cycle",
+    "website": "https://www.southlakecycle.bike/",
+    "subject": "Quick note about https://www.southlakecycle.bike/",
+    "body": "Hi,\n\nI came across South Lake Cycle's website while researching local businesses and noticed something worth a quick look: 3 of 10 <img> tags have no (or empty) alt attribute. (Images missing alt text).\n\nAdd descriptive alt text to every product/content image for accessibility and image search.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@southlakecycle.bike"
+  },
+  {
+    "outreach_id": 71,
+    "prospect_id": "P091",
+    "company": "NW Pro Gear",
+    "website": "https://www.nwprogear.com/",
+    "subject": "Quick note about https://www.nwprogear.com/",
+    "body": "Hi,\n\nI came across NW Pro Gear's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"YOUR LOCAL BIKE SHOP. - LENTS | PORTLAND\",\"PRO SERVICE\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "nwprogear2@gmail.com"
+  },
+  {
+    "outreach_id": 72,
+    "prospect_id": "P092",
+    "company": "North Star Sports",
+    "website": "https://northstarsportsvt.com/",
+    "subject": "Quick note about https://northstarsportsvt.com/",
+    "body": "Hi,\n\nI came across North Star Sports's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"\",\"\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "northstarsportsvt@gmail.com"
+  },
+  {
+    "outreach_id": 73,
+    "prospect_id": "P093",
+    "company": "High Mountain Cycles",
+    "website": "https://www.highmountaincycles.com/",
+    "subject": "Quick note about https://www.highmountaincycles.com/",
+    "body": "Hi,\n\nI came across High Mountain Cycles's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "highmountaincycles@gmail.com"
+  },
+  {
+    "outreach_id": 74,
+    "prospect_id": "P094",
+    "company": "Rhoddie Bicycle Outfitters",
+    "website": "http://www.rhoddiebicycleoutfitters.com/",
+    "subject": "Quick note about http://www.rhoddiebicycleoutfitters.com/",
+    "body": "Hi,\n\nI came across Rhoddie Bicycle Outfitters's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Blowing Rock's Bicycle Shop\",\"Our Bicycle Brands\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@rhoddiebicycleoutfitters.com"
+  },
+  {
+    "outreach_id": 75,
+    "prospect_id": "P095",
+    "company": "Red Rock Bicycle Co",
+    "website": "https://www.redrockbicycle.com/",
+    "subject": "Quick note about https://www.redrockbicycle.com/",
+    "body": "Hi,\n\nI came across Red Rock Bicycle Co's website while researching local businesses and noticed something worth a quick look: H1: \"One Chance at Fall Weather\" | Title: \"Red Rock Bicycle Co | Shop Specialized, Aventon, Norco & More\" (H1 doesn't reinforce the title's target keyword).\n\nRework the H1 to include the same core keyword as the title tag.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "ridercare.stg@redrockbicycle.com"
+  },
+  {
+    "outreach_id": 76,
+    "prospect_id": "P096",
+    "company": "Downrange Bike Works",
+    "website": "https://www.downrangebikeworks.com/",
+    "subject": "Quick note about https://www.downrangebikeworks.com/",
+    "body": "Hi,\n\nI came across Downrange Bike Works's website while researching local businesses and noticed something worth a quick look: 4 <h1> tags found: [\"DOWNRANGE BIKE WORKS\",\"FREE PICK UP & DELIVERY\",\"NORCO EBIKE DEMOS\",\"LECTRIC EBIKE RENTALS\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "service@downrangebikeworks.com"
+  },
+  {
+    "outreach_id": 77,
+    "prospect_id": "P097",
+    "company": "Oregon Bike Shop",
+    "website": "http://www.oregonbikeshop.com/",
+    "subject": "Quick note about http://www.oregonbikeshop.com/",
+    "body": "Hi,\n\nI came across Oregon Bike Shop's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "ride@oregonbikeshop.com"
+  },
+  {
+    "outreach_id": 78,
+    "prospect_id": "P098",
+    "company": "Cycle Analysis",
+    "website": "https://www.cycleanalysis.net/",
+    "subject": "Quick note about https://www.cycleanalysis.net/",
+    "body": "Hi,\n\nI came across Cycle Analysis's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "cycleanalysis@cycleanalysis.net"
+  },
+  {
+    "outreach_id": 79,
+    "prospect_id": "P099",
+    "company": "City Flower Shop",
+    "website": "https://cityflowershop.com/",
+    "subject": "Quick note about https://cityflowershop.com/",
+    "body": "Hi,\n\nI came across City Flower Shop's website while researching local businesses and noticed something worth a quick look: Title: \"City Flower Shop &#8211; Family Owned & Operated Florist\" | Description: \"Same-day flower delivery across the U.S. Fresh bouquets handcrafted locally for birthdays, anniversaries, sympathy and everyday gifting.\" -- low keyword overlap. (Title/meta description may be inconsistent).\n\nAlign the description with everything promised in the title (e.g. all locations/services named in the title).\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "support@cityflowershop.com"
+  },
+  {
+    "outreach_id": 80,
+    "prospect_id": "P100",
+    "company": "Anaheim Hills Florist",
+    "website": "https://anaheimhillsflorists.com/",
+    "subject": "Quick note about https://anaheimhillsflorists.com/",
+    "body": "Hi,\n\nI came across Anaheim Hills Florist's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "CarolDolan@anaheimhillsflorists.com"
+  },
+  {
+    "outreach_id": 81,
+    "prospect_id": "P101",
+    "company": "Bonnie Bee Flowers",
+    "website": "https://bonniebeeflowers.com/",
+    "subject": "Quick note about https://bonniebeeflowers.com/",
+    "body": "Hi,\n\nI came across Bonnie Bee Flowers's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "bonniebeeflowers@gmail.com"
+  },
+  {
+    "outreach_id": 82,
+    "prospect_id": "P102",
+    "company": "Butterfly Blooms",
+    "website": "https://www.butterflybloomsflowershop.com/",
+    "subject": "Quick note about https://www.butterflybloomsflowershop.com/",
+    "body": "Hi,\n\nI came across Butterfly Blooms's website while researching local businesses and noticed something worth a quick look: Zero <h1> tags on the page. (No H1 heading found).\n\nAdd exactly one H1 that includes the primary keyword.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "butterflyblooms@yahoo.com"
+  },
+  {
+    "outreach_id": 83,
+    "prospect_id": "P103",
+    "company": "The Farmer's Daughter Flowers",
+    "website": "https://thefarmersdaughterflowers.com/",
+    "subject": "Quick note about https://thefarmersdaughterflowers.com/",
+    "body": "Hi,\n\nI came across The Farmer's Daughter Flowers's website while researching local businesses and noticed something worth a quick look: No <meta name=\"description\"> tag found. (Missing meta description).\n\nAdd a 140-160 character description summarizing the page and including a call to action.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "thefarmersdaughter@thefarmersdaughterflowers.org"
+  },
+  {
+    "outreach_id": 84,
+    "prospect_id": "P104",
+    "company": "The Flower Peddler",
+    "website": "https://flowerpeddlerflorist.com/",
+    "subject": "Quick note about https://flowerpeddlerflorist.com/",
+    "body": "Hi,\n\nI came across The Flower Peddler's website while researching local businesses and noticed something worth a quick look: Title: \"The Flower Peddler &ndash; FlowerPeddler\" | Description: \"Local family-owned florist in Clinton Township, conveniently located across the street for a cemetery. We have the lowest prices and get our flowers direct from the farm.\" -- low keyword overlap. (Title/meta description may be inconsistent).\n\nAlign the description with everything promised in the title (e.g. all locations/services named in the title).\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "orders@flowerpeddlerflorist.com"
+  },
+  {
+    "outreach_id": 85,
+    "prospect_id": "P105",
+    "company": "Leaves Floral Design & Events",
+    "website": "https://shop.leavesfloraldesign.com/",
+    "subject": "Quick note about https://shop.leavesfloraldesign.com/",
+    "body": "Hi,\n\nI came across Leaves Floral Design & Events's website while researching local businesses and noticed something worth a quick look: 2 <h1> tags found: [\"Fresh Flowers, Plants & Gifts For Any Oc\",\"Fresh Flowers, Plants & Gifts For Any Oc\"] (Multiple H1 headings).\n\nKeep a single H1 per page; demote the rest to H2.\n\nI do a quick $29 SEO health check covering this and a few other things — happy to send the full report over if useful.",
+    "personalization_basis": "FULLY_FETCHED — batch prospect research 2026-09-14 (real fetch + email found on business's own site)",
+    "approved": false,
+    "contact_email": "info@leavesfloraldesign.com"
   }
 ]

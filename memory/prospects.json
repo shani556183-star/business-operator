@@ -1,12 +1,1262 @@
 [
-  {"id": "P001", "company": "Faller's Furniture", "website": "https://www.fallersfurniture.com", "location": "Clarion, PA", "verification": "FULLY_FETCHED", "audit_done": true, "outreach_status": "DRAFTED"},
-  {"id": "P002", "company": "Furniture Mart NC", "website": "https://www.furnituremartnc.com", "location": "Roxboro, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "DRAFTED"},
-  {"id": "P003", "company": "Hendrixson's Furniture", "website": "https://www.hendrixsonsfurniture.com", "location": "Furlong/Emmaus, PA", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
-  {"id": "P004", "company": "Furniture Direct FL", "website": "https://www.furnituredirectfl.com", "location": "West Palm Beach, FL", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
-  {"id": "P005", "company": "Furniture World", "website": "https://myfurnitureworld.com", "location": "Lighthouse Point, FL", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
-  {"id": "P006", "company": "B & W Hardware Co.", "website": "https://wakeforesthardware.com", "location": "Wake Forest, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
-  {"id": "P007", "company": "Town Hardware General Store", "website": "https://townhardwaregeneralstore.com", "location": "Black Mountain, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
-  {"id": "P008", "company": "Zebulon Hardware", "website": "https://zebulonhardware.com", "location": "Zebulon, NC", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "DRAFTED"},
-  {"id": "P009", "company": "HomeTown Solutions", "website": "https://www.hometownsolutionswv.com", "location": "Augusta/Fort Ashby, WV", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"},
-  {"id": "P010", "company": "Little Fawn Hardware", "website": "https://littlefawnllc.com", "location": "Camden, IN", "verification": "SEARCH_CONFIRMED_URL", "audit_done": false, "outreach_status": "NOT_DRAFTED"}
+  {
+    "id": "P001",
+    "company": "Faller's Furniture",
+    "website": "https://www.fallersfurniture.com",
+    "location": "Clarion, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P002",
+    "company": "Furniture Mart NC",
+    "website": "https://www.furnituremartnc.com",
+    "location": "Roxboro, NC",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P003",
+    "company": "Hendrixson's Furniture",
+    "website": "https://www.hendrixsonsfurniture.com",
+    "location": "Furlong/Emmaus, PA",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P004",
+    "company": "Furniture Direct FL",
+    "website": "https://www.furnituredirectfl.com",
+    "location": "West Palm Beach, FL",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P005",
+    "company": "Furniture World",
+    "website": "https://myfurnitureworld.com",
+    "location": "Lighthouse Point, FL",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P006",
+    "company": "B & W Hardware Co.",
+    "website": "https://wakeforesthardware.com",
+    "location": "Wake Forest, NC",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P007",
+    "company": "Town Hardware General Store",
+    "website": "https://townhardwaregeneralstore.com",
+    "location": "Black Mountain, NC",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P008",
+    "company": "Zebulon Hardware",
+    "website": "https://zebulonhardware.com",
+    "location": "Zebulon, NC",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P009",
+    "company": "HomeTown Solutions",
+    "website": "https://www.hometownsolutionswv.com",
+    "location": "Augusta/Fort Ashby, WV",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P010",
+    "company": "Little Fawn Hardware",
+    "website": "https://littlefawnllc.com",
+    "location": "Camden, IN",
+    "verification": "SEARCH_CONFIRMED_URL",
+    "audit_done": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P011",
+    "company": "OldTown Furniture",
+    "website": "https://oldtownfurnitures.com",
+    "location": "Santa Rosa, CA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P012",
+    "company": "Ohio Furniture Mart",
+    "website": "https://ohiofurnituremart.com",
+    "location": "Alliance, OH",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P013",
+    "company": "Payless Furniture",
+    "website": "https://paylessfurnitureohio.com",
+    "location": "Columbus, OH",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P014",
+    "company": "LaChance Furniture (LaChance Interiors)",
+    "website": "https://lachancefurniture.com",
+    "location": "Gardner, MA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P015",
+    "company": "Town & Country Furniture & Appliances",
+    "website": "https://tcfurn.com",
+    "location": "Blue Ridge, GA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P016",
+    "company": "Woodrich West",
+    "website": "https://woodrichwest.com",
+    "location": "Bozeman, MT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P017",
+    "company": "Furniture and Things",
+    "website": "https://furnitureandthings.com",
+    "location": "Elk River, MN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P018",
+    "company": "New England Furniture",
+    "website": "https://newenglandfurniture.net",
+    "location": "Farmington, NH",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P019",
+    "company": "Gardner Outlet Furniture",
+    "website": "https://gardneroutletfurniture.com",
+    "location": "Gardner, MA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P020",
+    "company": "Family Home Furniture",
+    "website": "https://myfamilyhomefurniture.com",
+    "location": "Millbrook, AL",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P021",
+    "company": "West Bend Furniture & Design",
+    "website": "https://westbendfurniture.com",
+    "location": "West Bend, WI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P022",
+    "company": "Rubin's Furniture",
+    "website": "https://rubinsfurniture.com",
+    "location": "Madison, WI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P023",
+    "company": "Yorktowne Furniture & Hake's Home Furnishings",
+    "website": "https://hakeshomefurnishings.com",
+    "location": "York, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P024",
+    "company": "Chertok's Furniture and Mattress",
+    "website": "https://chertoksfurniture.com",
+    "location": "Coatesville, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P025",
+    "company": "Winglemire Furniture",
+    "website": "https://winglemire.com",
+    "location": "Holly, MI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P026",
+    "company": "Naturally Wood Furniture & Mattress",
+    "website": "https://naturallywoodfurniturecenter.com",
+    "location": "Michigan City, IN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P027",
+    "company": "Groen's Fine Furniture",
+    "website": "https://groensfinefurniture.com",
+    "location": "Dyer, IN / Crown Point, IN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P028",
+    "company": "Town & Country Furniture (Dayton, VA)",
+    "website": "https://towncofurniture.com",
+    "location": "Dayton, VA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P029",
+    "company": "Ferrin's Furniture",
+    "website": "https://ferrins.com",
+    "location": "Great Falls, MT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P030",
+    "company": "Martin Furniture and Design",
+    "website": "https://martinfurnitureanddesign.com",
+    "location": "Gainesville, GA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P031",
+    "company": "Madison Creek Furnishings",
+    "website": "https://madisoncreekfurnishings.com",
+    "location": "Missoula, MT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P032",
+    "company": "Rustic Mountain Furnishings",
+    "website": "https://rusticmountainfurnishings.net",
+    "location": "Billings, MT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P033",
+    "company": "Sanders Furniture",
+    "website": "https://mtsandersfurniture.com",
+    "location": "Commerce, GA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P034",
+    "company": "Moore's Furniture",
+    "website": "https://mooresfurniture.com",
+    "location": "Chester Springs, PA / Limerick, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P035",
+    "company": "Route 21 Furniture",
+    "website": "https://route21furnitureonline.com",
+    "location": "McClellandtown, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P036",
+    "company": "Augustus & Carolina",
+    "website": "https://augustusandcarolina.com",
+    "location": "Georgetown, SC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P037",
+    "company": "Altadena Hardware",
+    "website": "https://www.altadenahardware.com/",
+    "location": "Altadena, CA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P038",
+    "company": "Denver True Value Hardware",
+    "website": "https://denvertruevalue.com/",
+    "location": "Denver, CO",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P039",
+    "company": "West Des Moines True Value",
+    "website": "https://truevaluewdm.com/",
+    "location": "West Des Moines, IA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P040",
+    "company": "Elder's Ace Hardware",
+    "website": "https://www.eldershardware.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P041",
+    "company": "Lone Star Hardware & Paint",
+    "website": "https://lonestarhardwareandpaint.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P042",
+    "company": "Fix & Feed Hardware",
+    "website": "https://fixandfeed.com/",
+    "location": "Commerce, TX",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P043",
+    "company": "Witt Family Do it Best Stores",
+    "website": "https://wittdoitbest.com/",
+    "location": "Paulding, OH",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P044",
+    "company": "Roberts Hometown Hardware",
+    "website": "https://www.robertshometownhardware.com/",
+    "location": "Oconto, WI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P045",
+    "company": "Southeast Ace",
+    "website": "https://seacehardware.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P046",
+    "company": "Northwest Ace Hardware (OR/WA)",
+    "website": "https://www.northwestacehardware.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P047",
+    "company": "73rd Street Hardware",
+    "website": "https://73rdstreethardware.net/",
+    "location": "New York, NY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P048",
+    "company": "Warshaw Hardware",
+    "website": "https://www.warshawhardware.com/",
+    "location": "New York, NY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P049",
+    "company": "Paul's Ace Hardware",
+    "website": "https://paulsacehardware.com/",
+    "location": "Scottsdale, AZ",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P050",
+    "company": "Stewart Hardware",
+    "website": "https://stewarthardwarewickenburg.com/",
+    "location": "Wickenburg, AZ",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P051",
+    "company": "Quality Hardware Co. Inc",
+    "website": "https://www.qualityhardwaremadison.com/",
+    "location": "Madison, WI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P052",
+    "company": "Hartville Hardware",
+    "website": "https://www.hartvillehardware.com/",
+    "location": "Hartville, OH",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P053",
+    "company": "Hippo Hardware & Trading Company",
+    "website": "https://www.hippohardware.com/",
+    "location": "Portland, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P054",
+    "company": "Action Hardware",
+    "website": "https://actionhardwarede.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P055",
+    "company": "Fairfax Hardware",
+    "website": "https://fairfaxhardwarede.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P056",
+    "company": "Independent Hardware, Inc.",
+    "website": "https://independenthardware.com/",
+    "location": "Philadelphia, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P057",
+    "company": "Northwest Ace Hardware (VA/NC)",
+    "website": "https://www.northwesthardware.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P058",
+    "company": "City Farmers Nursery",
+    "website": "https://www.cityfarmersnursery.com/",
+    "location": "San Diego, CA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P059",
+    "company": "Kinsey Family Farm",
+    "website": "https://www.kinseyfamilyfarm.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P060",
+    "company": "Family Tree Nursery",
+    "website": "https://familytreenursery.com/",
+    "location": "Overland Park, KS",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P061",
+    "company": "Tonkadale Greenhouse",
+    "website": "https://tonkadale.com/",
+    "location": "Minnetonka, MN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P062",
+    "company": "The Garden Center (San Antonio)",
+    "website": "https://www.thegardencenter.com/",
+    "location": "San Antonio, TX",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P063",
+    "company": "The Growers Outlet",
+    "website": "https://www.growersoutletinwillis.com/",
+    "location": "Willis, TX",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P064",
+    "company": "Tex-Scapes Nursery",
+    "website": "https://texscapesnursery.com/",
+    "location": "Ennis, TX",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P065",
+    "company": "Blooming Colors Nursery",
+    "website": "https://bloomingcolorsnursery.com/",
+    "location": "Grapevine, TX",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P066",
+    "company": "Spillane's Nursery",
+    "website": "https://www.spillanesnursery.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P067",
+    "company": "Valley Nursery",
+    "website": "https://valleynurseryinc.com/",
+    "location": "Poulsbo, WA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P068",
+    "company": "One Green World",
+    "website": "https://onegreenworld.com/",
+    "location": "Portland, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P069",
+    "company": "Pets on Broadway NYC",
+    "website": "https://petsonbroadwaynyc.com/",
+    "location": "New York, NY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P070",
+    "company": "Pet Pantry Warehouse",
+    "website": "https://www.ppwpet.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P071",
+    "company": "Weber's Pet Supermarket",
+    "website": "https://weberspetsupermarket.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P072",
+    "company": "Western Pet Supply",
+    "website": "https://westernpetpdx.com/",
+    "location": "Portland, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P073",
+    "company": "Monster Pets",
+    "website": "https://monsterpetsonline.com/",
+    "location": "Philadelphia, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P074",
+    "company": "Incredible Pets",
+    "website": "https://incredpets.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P075",
+    "company": "All The Best Pet Care",
+    "website": "https://www.allthebestpetcare.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P076",
+    "company": "Watters Garden Center",
+    "website": "https://wattersgardencenter.com/",
+    "location": "Prescott, AZ",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P077",
+    "company": "New Leaf Nursery",
+    "website": "https://newleafnurseryhayden.com/",
+    "location": "Hayden, ID",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P078",
+    "company": "South Pleasantburg Nursery",
+    "website": "https://spnursery.com/",
+    "location": "Greenville, SC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P079",
+    "company": "Lichtenfelt's Garden Center",
+    "website": "https://lichtenfelts.com/",
+    "location": "Greenville, SC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P080",
+    "company": "Hidden Ponds Nursery",
+    "website": "https://www.hiddenpondsnursery.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P081",
+    "company": "Zoo Creatures New England",
+    "website": "https://www.zoocreatures.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P082",
+    "company": "Depot Town Cats and Dogs",
+    "website": "https://www.ypsicatsanddogs.com/",
+    "location": "Ypsilanti, MI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P083",
+    "company": "Glynn Young's Landscaping and Nursery Center",
+    "website": "https://www.glynnyoungsnursery.com/",
+    "location": "Nicholasville, KY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P084",
+    "company": "King's Gardens",
+    "website": "https://kingsgardens.com/",
+    "location": "Nicholasville, KY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P085",
+    "company": "Baeten's Nursery",
+    "website": "https://baetensnursery.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P086",
+    "company": "Kinsey Gardens Inc",
+    "website": "https://www.kinseygardens.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P087",
+    "company": "Pets To Go",
+    "website": "https://petstogo.net/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P088",
+    "company": "Pet Supply OC",
+    "website": "https://www.petsupplyoc.com/",
+    "location": "Orange County, CA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P089",
+    "company": "The Bicycle Hub",
+    "website": "https://thebicyclehubpec.com/",
+    "location": "Pecatonica, IL",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P090",
+    "company": "South Lake Cycle",
+    "website": "https://www.southlakecycle.bike/",
+    "location": "Excelsior, MN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P091",
+    "company": "NW Pro Gear",
+    "website": "https://www.nwprogear.com/",
+    "location": "Portland, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P092",
+    "company": "North Star Sports",
+    "website": "https://northstarsportsvt.com/",
+    "location": "Burlington, VT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P093",
+    "company": "High Mountain Cycles",
+    "website": "https://www.highmountaincycles.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P094",
+    "company": "Rhoddie Bicycle Outfitters",
+    "website": "http://www.rhoddiebicycleoutfitters.com/",
+    "location": "Blowing Rock, NC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P095",
+    "company": "Red Rock Bicycle Co",
+    "website": "https://www.redrockbicycle.com/",
+    "location": "St. George, UT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P096",
+    "company": "Downrange Bike Works",
+    "website": "https://www.downrangebikeworks.com/",
+    "location": "West Jordan, UT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P097",
+    "company": "Oregon Bike Shop",
+    "website": "http://www.oregonbikeshop.com/",
+    "location": "Portland, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P098",
+    "company": "Cycle Analysis",
+    "website": "https://www.cycleanalysis.net/",
+    "location": "Jacksonville, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P099",
+    "company": "City Flower Shop",
+    "website": "https://cityflowershop.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P100",
+    "company": "Anaheim Hills Florist",
+    "website": "https://anaheimhillsflorists.com/",
+    "location": "Anaheim Hills, CA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P101",
+    "company": "Bonnie Bee Flowers",
+    "website": "https://bonniebeeflowers.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P102",
+    "company": "Butterfly Blooms",
+    "website": "https://www.butterflybloomsflowershop.com/",
+    "location": "Littlestown, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P103",
+    "company": "The Farmer's Daughter Flowers",
+    "website": "https://thefarmersdaughterflowers.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P104",
+    "company": "The Flower Peddler",
+    "website": "https://flowerpeddlerflorist.com/",
+    "location": "Clinton Township, MI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P105",
+    "company": "Leaves Floral Design & Events",
+    "website": "https://shop.leavesfloraldesign.com/",
+    "location": "Muskego, WI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": true,
+    "outreach_status": "DRAFTED"
+  },
+  {
+    "id": "P106",
+    "company": "Fanatik Bike Co.",
+    "website": "https://www.fanatikbike.com/",
+    "location": "Bellingham, WA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P107",
+    "company": "Vermont Bicycle Shop",
+    "website": "https://www.vermontbicycleshop.com/",
+    "location": "Barre, VT",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P108",
+    "company": "Analog Cycles",
+    "website": "https://analogcycles.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P109",
+    "company": "Sycamore Cycles",
+    "website": "https://www.sycamorecycles.com/",
+    "location": "Pisgah Forest, NC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P110",
+    "company": "Epic Cycles",
+    "website": "https://www.epiccyclesnc.com/",
+    "location": "Black Mountain, NC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P111",
+    "company": "Spirited Cyclist Bike Shop",
+    "website": "https://spiritedcyclist.com/",
+    "location": "Davidson, NC",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P112",
+    "company": "Chequamegon Adventure Company",
+    "website": "https://www.chequamegonadventurecompany.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P113",
+    "company": "Bay City Cycles",
+    "website": "https://baycitycycles.com/",
+    "location": "Ashland, WI",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P114",
+    "company": "Classic Cycle Inc.",
+    "website": "http://cycleoc.com/",
+    "location": "Oregon City, OR",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P115",
+    "company": "Allen Flower Shop",
+    "website": "https://allenflowershop.com/",
+    "location": "Allen, TX",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P116",
+    "company": "Small Town Blooms (Beaver Dam Florist)",
+    "website": "https://smalltownbloomsky.com/",
+    "location": "Beaver Dam, KY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P117",
+    "company": "Franklin's Small Town Flowers",
+    "website": "https://www.franklinssmalltownflowers.com/",
+    "location": "Dushore, PA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P118",
+    "company": "Central Square Florist",
+    "website": "https://www.centralsquareflorist.com/",
+    "location": "Cambridge, MA",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P119",
+    "company": "Couture de Roses",
+    "website": "https://couturederoses.com/",
+    "location": "Tulsa, OK",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P120",
+    "company": "Flowers By Eva",
+    "website": "https://www.flowersbyeva.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P121",
+    "company": "Farmhouse Flowers",
+    "website": "https://www.farmhouseflowersdesign.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P122",
+    "company": "All A' Bloom Florist",
+    "website": "https://www.allabloomflorist.com/",
+    "location": "Lee's Summit, MO",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P123",
+    "company": "Bramble & Stem",
+    "website": "https://brambleandstem.com/",
+    "location": "Kansas City, MO",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P124",
+    "company": "Steve's Floral Shop",
+    "website": "https://stevesfloralshopinc.com/",
+    "location": "UNKNOWN",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P125",
+    "company": "Hernando Flower Shop",
+    "website": "https://hernandoflowershop.com/",
+    "location": "Hernando, MS",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P126",
+    "company": "Blooming Fabulous Flower Shop",
+    "website": "https://www.bloomingfabflowers.com/",
+    "location": "Bay Minette, AL",
+    "verification": "FULLY_FETCHED",
+    "audit_done": true,
+    "email_verified": false,
+    "outreach_status": "NOT_DRAFTED"
+  },
+  {
+    "id": "P127",
+    "company": "James Cress Florist",
+    "website": "https://jamescressflorist.com/",
+    "location": "Smithtown, NY",
+    "verification": "FULLY_FETCHED",
+    "audit_done": false,
+    "email_verified": true,
+    "outreach_status": "NOT_DRAFTED"
+  }
 ]

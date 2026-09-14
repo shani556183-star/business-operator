@@ -1,6 +1,6 @@
 # BUSINESS STATUS
 
-Last updated: 2026-08-31
+Last updated: 2026-09-14
 
 ## Current Experiment
 - ID: EXP-001
@@ -13,14 +13,18 @@ Last updated: 2026-08-31
 - Package tiers defined but only Starter is being actively tested
 
 ## Prospects
-- Total researched (verified real): 10
-- Fully deep-audited (sample ready): 1 (Faller's Furniture)
-- Outreach drafts ready: 2 (full), 8 (template-level, need per-site verification pass)
+- Total researched (verified real): 127 (10 original + 117 from the 2026-09-14 batch scan
+  across furniture, hardware, garden/pet, and bike/florist retailers)
+- Fully deep-audited (real analyzer findings, not fabricated): 117
+- Outreach drafts ready to send (verified email + completed audit): 63 (2 original + 61 new)
+- Audited but no verified email found yet (not draft-ready): 55 — tracked in prospects.json
+  for a future targeted email-discovery pass, deliberately NOT drafted as outreach
 
 ## Outreach
 - Sent: 0
-- Approved by owner: 0
-- Pending owner approval: 16 drafts
+- Approved by owner: 2 (pre-existing, from before this batch)
+- Pending owner approval: 77 drafts (63 fully ready-to-send with verified email, 16 older
+  template-level drafts without a verified email)
 
 ## Replies
 - 0 (no outreach sent yet)
