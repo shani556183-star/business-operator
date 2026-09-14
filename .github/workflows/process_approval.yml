@@ -1,16 +1,17 @@
 name: Process Approval Comment
 
-# Triggers automatically whenever ANYONE comments on ANY issue.
-# We filter inside the job to only act on the approval-labeled issue,
-# and only when the comment is genuinely from the repo owner - not a
-# random person who found the public repo.
+# DISABLED (2026-09-14, owner request): outreach sending must happen only
+# through client-outreach-agent, never directly from business-operator.
+# Trigger is now manual-only (workflow_dispatch), so an "APPROVE ..." GitHub
+# comment can no longer fire this automatically, and the job itself is
+# hard-skipped as a second safeguard. To re-enable, restore the
+# `issue_comment` trigger below and remove the job-level `if: false`.
 on:
-  issue_comment:
-    types: [created]
+  workflow_dispatch:
 
 jobs:
   process:
-    if: contains(github.event.issue.labels.*.name, 'outreach-approval') && github.event.comment.user.login == github.repository_owner
+    if: false && contains(github.event.issue.labels.*.name, 'outreach-approval') && github.event.comment.user.login == github.repository_owner
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
