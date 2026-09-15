@@ -1,0 +1,6 @@
+# Generated client-deliverable PDFs (scripts/generate_full_report_for.py) --
+# one-off output per client, not source, no reason to version them.
+reports/
+
+__pycache__/
+*.pyc
